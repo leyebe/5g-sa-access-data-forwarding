@@ -1,0 +1,31 @@
+# ./nr-ue -c ../config/open5gs-ue0.yaml 
+UERANSIM v3.2.6
+[2024-03-29 19:15:04.380] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2024-03-29 19:15:04.381] [rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2024-03-29 19:15:04.382] [nas] [info] Selected plmn[001/01]
+[2024-03-29 19:15:04.383] [rrc] [info] Selected cell plmn[001/01] tac[1] category[SUITABLE]
+[2024-03-29 19:15:04.384] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2024-03-29 19:15:04.384] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2024-03-29 19:15:04.385] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2024-03-29 19:15:04.389] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-03-29 19:15:04.390] [nas] [debug] Sending Initial Registration
+[2024-03-29 19:15:04.390] [rrc] [debug] Sending RRC Setup Request
+[2024-03-29 19:15:04.391] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2024-03-29 19:15:04.393] [rrc] [info] RRC connection established
+[2024-03-29 19:15:04.393] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2024-03-29 19:15:04.394] [nas] [info] UE switches to state [CM-CONNECTED]
+[2024-03-29 19:15:04.422] [nas] [debug] Authentication Request received
+[2024-03-29 19:15:04.422] [nas] [debug] Received SQN [000000000341]
+[2024-03-29 19:15:04.423] [nas] [debug] SQN-MS [000000000000]
+[2024-03-29 19:15:04.440] [nas] [debug] Security Mode Command received
+[2024-03-29 19:15:04.440] [nas] [debug] Selected integrity[2] ciphering[0]
+[2024-03-29 19:15:04.485] [nas] [debug] Registration accept received
+[2024-03-29 19:15:04.485] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2024-03-29 19:15:04.485] [nas] [debug] Sending Registration Complete
+[2024-03-29 19:15:04.486] [nas] [info] Initial Registration is successful
+[2024-03-29 19:15:04.486] [nas] [debug] Sending PDU Session Establishment Request
+[2024-03-29 19:15:04.487] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-03-29 19:15:04.693] [nas] [debug] Configuration Update Command received
+[2024-03-29 19:15:04.755] [nas] [debug] PDU Session Establishment Accept received
+[2024-03-29 19:15:04.761] [nas] [info] PDU Session establishment is successful PSI[1]
+[2024-03-29 19:15:04.809] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.2] is up.

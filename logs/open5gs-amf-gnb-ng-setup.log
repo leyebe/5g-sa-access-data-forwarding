@@ -1,0 +1,4 @@
+03/29 19:14:15.672: [amf] INFO: gNB-N2 accepted[192.168.0.131]:42377 in ng-path module (../src/amf/ngap-sctp.c:113)
+03/29 19:14:15.672: [amf] INFO: gNB-N2 accepted[192.168.0.131] in master_sm module (../src/amf/amf-sm.c:754)
+03/29 19:14:15.688: [amf] INFO: [Added] Number of gNBs is now 1 (../src/amf/context.c:1236)
+03/29 19:14:15.689: [amf] INFO: gNB-N2[192.168.0.131] max_num_of_ostreams : 10 (../src/amf/amf-sm.c:793)

@@ -1,0 +1,26 @@
+--- upf.yaml.orig       2024-03-24 15:36:48.000000000 +0900
++++ upf.yaml    2024-03-29 18:40:33.139948345 +0900
+@@ -10,16 +10,20 @@
+ upf:
+   pfcp:
+     server:
+-      - address: 127.0.0.7
++      - address: 192.168.0.112
+     client:
+ #      smf:     #  UPF PFCP Client try to associate SMF PFCP Server
+ #        - address: 127.0.0.4
+   gtpu:
+     server:
+-      - address: 127.0.0.7
++      - address: 192.168.0.112
+   session:
+     - subnet: 10.45.0.1/16
+-    - subnet: 2001:db8:cafe::1/48
++      dnn: internet
++      dev: ogstun
++    - subnet: 10.46.0.1/16
++      dnn: internet2
++      dev: ogstun2
+   metrics:
+     server:
+       - address: 127.0.0.7

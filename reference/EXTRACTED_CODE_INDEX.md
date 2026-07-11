@@ -1,0 +1,38 @@
+# Extracted Code Index
+This file lists the code/configuration snippets extracted from the source README and renamed by function.
+
+- Block 01: `configs/open5gs-cplane/amf.yaml.diff`
+- Block 02: `configs/open5gs-cplane/nrf.yaml.diff`
+- Block 03: `configs/open5gs-cplane/smf.yaml.diff`
+- Block 04: `configs/open5gs-uplane1/upf.yaml.diff`
+- Block 05: `configs/open5gs-uplane2/upf.yaml.diff`
+- Block 06: `configs/ueransim-ran/open5gs-gnb.yaml.diff`
+- Block 07: `scripts/create-ue0-config.sh`
+- Block 08: `configs/ueransim-ue/open5gs-ue0.yaml.diff`
+- Block 09: `scripts/create-ue1-config.sh`
+- Block 10: `configs/ueransim-ue/open5gs-ue1.yaml.diff`
+- Block 11: `scripts/create-ue2-config.sh`
+- Block 12: `configs/ueransim-ue/open5gs-ue2.yaml.diff`
+- Block 13: `scripts/create-ue3-config.sh`
+- Block 14: `configs/ueransim-ue/open5gs-ue3.yaml.diff`
+- Block 15: `scripts/create-ue4-config.sh`
+- Block 16: `configs/ueransim-ue/open5gs-ue4.yaml.diff`
+- Block 23: `scripts/run-open5gs-cplane.sh`
+- Block 24: `scripts/run-open5gs-uplane1.sh`
+- Block 25: `scripts/run-open5gs-uplane2.sh`
+- Block 26: `logs/ueransim-gnb-ng-setup.log`
+- Block 27: `logs/open5gs-amf-gnb-ng-setup.log`
+- Block 28: `logs/ueransim-ue0-registration-pdu-session.log`
+- Block 29: `logs/open5gs-cplane-ue0-registration.log`
+- Block 30: `logs/open5gs-uplane1-ue0-session.log`
+- Block 31: `logs/ue0-pdu-session-success.log`
+- Block 32: `verification/ue0-tun-interface-ip.txt`
+- Block 33: `verification/ue0-ping-google.txt`
+- Block 34: `verification/upf1-ogstun-icmp-tcpdump.txt`
+- Block 35: `verification/ue0-curl-google.txt`
+- Block 36: `verification/upf1-ogstun-http-tcpdump.txt`
+- Combined script: `scripts/setup-uplane1-tunnels.sh`
+- Combined script: `scripts/setup-uplane2-tunnels.sh`
+- Clean command script: `scripts/start-ueransim-gnb.sh`
+- Clean command script: `scripts/start-ueransim-ue0.sh`
+- Clean verification script: `scripts/verify-ue0-path.sh`

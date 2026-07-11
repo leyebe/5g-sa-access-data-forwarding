@@ -1,0 +1,5 @@
+03/29 19:15:04.743: [upf] INFO: [Added] Number of UPF-Sessions is now 1 (../src/upf/context.c:208)
+03/29 19:15:04.744: [gtp] INFO: gtp_connect() [192.168.0.111]:2152 (../lib/gtp/path.c:60)
+03/29 19:15:04.744: [upf] INFO: UE F-SEID[UP:0x57e CP:0x6bd] APN[internet] PDN-Type[1] IPv4[10.45.0.2] IPv6[] (../src/upf/context.c:485)
+03/29 19:15:04.744: [upf] INFO: UE F-SEID[UP:0x57e CP:0x6bd] APN[internet] PDN-Type[1] IPv4[10.45.0.2] IPv6[] (../src/upf/context.c:485)
+03/29 19:15:04.754: [gtp] INFO: gtp_connect() [192.168.0.131]:2152 (../lib/gtp/path.c:60)

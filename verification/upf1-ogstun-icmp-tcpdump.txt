@@ -1,0 +1,9 @@
+# tcpdump -i ogstun -n
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on ogstun, link-type RAW (Raw IP), capture size 262144 bytes
+19:17:14.619358 IP 10.45.0.2 > 172.217.26.238: ICMP echo request, id 13, seq 1, length 64
+19:17:14.641298 IP 172.217.26.238 > 10.45.0.2: ICMP echo reply, id 13, seq 1, length 64
+19:17:15.620458 IP 10.45.0.2 > 172.217.26.238: ICMP echo request, id 13, seq 2, length 64
+19:17:15.647406 IP 172.217.26.238 > 10.45.0.2: ICMP echo reply, id 13, seq 2, length 64
+19:17:16.621402 IP 10.45.0.2 > 172.217.26.238: ICMP echo request, id 13, seq 3, length 64
+19:17:16.639589 IP 172.217.26.238 > 10.45.0.2: ICMP echo reply, id 13, seq 3, length 64

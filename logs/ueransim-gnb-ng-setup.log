@@ -1,0 +1,8 @@
+# ./nr-gnb -c ../config/open5gs-gnb.yaml
+UERANSIM v3.2.6
+[2024-03-29 19:14:15.643] [sctp] [info] Trying to establish SCTP connection... (192.168.0.111:38412)
+[2024-03-29 19:14:15.656] [sctp] [info] SCTP connection established (192.168.0.111:38412)
+[2024-03-29 19:14:15.657] [sctp] [debug] SCTP association setup ascId[20]
+[2024-03-29 19:14:15.657] [ngap] [debug] Sending NG Setup Request
+[2024-03-29 19:14:15.675] [ngap] [debug] NG Setup Response received
+[2024-03-29 19:14:15.675] [ngap] [info] NG Setup procedure is successful

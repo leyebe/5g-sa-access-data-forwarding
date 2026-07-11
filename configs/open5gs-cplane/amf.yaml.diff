@@ -1,0 +1,37 @@
+--- amf.yaml.orig       2024-03-24 15:36:48.000000000 +0900
++++ amf.yaml    2024-03-24 20:19:58.000000000 +0900
+@@ -19,27 +19,27 @@
+         - uri: http://127.0.0.200:7777
+   ngap:
+     server:
+-      - address: 127.0.0.5
++      - address: 192.168.0.111
+   metrics:
+     server:
+       - address: 127.0.0.5
+         port: 9090
+   guami:
+     - plmn_id:
+-        mcc: 999
+-        mnc: 70
++        mcc: 001
++        mnc: 01
+       amf_id:
+         region: 2
+         set: 1
+   tai:
+     - plmn_id:
+-        mcc: 999
+-        mnc: 70
++        mcc: 001
++        mnc: 01
+       tac: 1
+   plmn_support:
+     - plmn_id:
+-        mcc: 999
+-        mnc: 70
++        mcc: 001
++        mnc: 01
+       s_nssai:
+         - sst: 1
+   security:

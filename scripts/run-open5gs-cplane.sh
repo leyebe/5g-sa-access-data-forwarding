@@ -1,0 +1,13 @@
+./install/bin/open5gs-nrfd &
+sleep 2
+./install/bin/open5gs-scpd &
+sleep 2
+./install/bin/open5gs-amfd &
+sleep 2
+./install/bin/open5gs-smfd &
+./install/bin/open5gs-ausfd &
+./install/bin/open5gs-udmd &
+./install/bin/open5gs-udrd &
+./install/bin/open5gs-pcfd &
+./install/bin/open5gs-nssfd &
+./install/bin/open5gs-bsfd &

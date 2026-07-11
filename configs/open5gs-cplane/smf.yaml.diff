@@ -1,0 +1,50 @@
+--- smf.yaml.orig       2024-03-24 15:36:48.000000000 +0900
++++ smf.yaml    2024-03-31 22:47:39.617010062 +0900
+@@ -19,35 +19,37 @@
+         - uri: http://127.0.0.200:7777
+   pfcp:
+     server:
+-      - address: 127.0.0.4
++      - address: 192.168.0.111
+     client:
+       upf:
+-        - address: 127.0.0.7
+-  gtpc:
+-    server:
+-      - address: 127.0.0.4
++        - address: 192.168.0.112
++          dnn: [internet, internet2]
++        - address: 192.168.0.113
++          dnn: ims
+   gtpu:
+     server:
+-      - address: 127.0.0.4
++      - address: 192.168.0.111
+   metrics:
+     server:
+       - address: 127.0.0.4
+         port: 9090
+   session:
+     - subnet: 10.45.0.1/16
+-    - subnet: 2001:db8:cafe::1/48
++      dnn: internet
++    - subnet: 10.46.0.1/16
++      dnn: internet2
++    - subnet: 10.47.0.1/16
++      dnn: ims
+   dns:
+     - 8.8.8.8
+     - 8.8.4.4
+-    - 2001:4860:4860::8888
+-    - 2001:4860:4860::8844
+   mtu: 1400
+ #  p-cscf:
+ #    - 127.0.0.1
+ #    - ::1
+ #  ctf:
+ #    enabled: auto   # auto(default)|yes|no
+-  freeDiameter: /root/open5gs/install/etc/freeDiameter/smf.conf
++#  freeDiameter: /root/open5gs/install/etc/freeDiameter/smf.conf
+ 
+ ################################################################################
+ # SMF Info
